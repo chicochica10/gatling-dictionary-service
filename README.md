@@ -12,19 +12,23 @@ Instructions:
 
 3.- At least JDK7u6 is needed
 
-4.- Clone repository and copy dictionaryService directory from the cloned repo to:
+4.- Clone repository and copy "dictionaryService" directory from the cloned repo inside of:
   
   <path where gatling is installed>/gatling-charts-highcharts-2.0.3/user-files/
-  
-5.- From:
 
-  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/bin
+5.- copy "users.csv" file from cloned repo inside of:
+
+  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/user-files/data/
+
+6.- From:
+
+  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/bin/
 
   run ./gatling.sh (linux) or batling.bat (windows)
 
   and select DictionaryServiceSimulation from the menu and write an optional description
   
-6.- Results of simulation are in a path similar to:
+7.- Results of simulation are in a path similar to:
 
   <path where gatling is installed>/gatling-charts-highcharts-2.0.3/results/dictionaryservicesimulation-xxxxxxxxx/index.html
 
