@@ -12,7 +12,7 @@ Instructions:
 
 3.- At least JDK7u6 is needed
 
-4.- Clone repository and copy dictionaryService directory to:
+4.- Clone repository and copy dictionaryService directory from the cloned repo to:
   
   <path where gatling is installed>/gatling-charts-highcharts-2.0.3/user-files/
   
