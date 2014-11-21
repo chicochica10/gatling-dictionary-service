@@ -5,6 +5,7 @@ respository file for gatling simulations
 
 Instructions:
 1.- Download gatling load test tool from: 
+
   http://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/2.0.3/gatling-charts-highcharts-2.0.3-bundle.zip
   
 2.- Unzip gatling
