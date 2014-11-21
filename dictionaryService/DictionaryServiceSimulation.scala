@@ -11,8 +11,7 @@ class DictionaryServiceSimulation extends Simulation {
 
   val feeder = csv ("users.csv").random
 
-  
-   val getDictionary = repeat (10){
+  val getDictionary = repeat (10){
       feed(feeder) 
       .exec(http("dictionary for userId: ${userId}")
       .get("/${userId}")
