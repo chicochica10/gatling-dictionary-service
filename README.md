@@ -21,7 +21,12 @@ Instructions:
   <path where gatling is installed>/gatling-charts-highcharts-2.0.3/bin
 
   run ./gatling.sh (linux) or batling.bat (windows)
+
+  and select DictionaryServiceSimulation from the menu and write an optional description
   
 6.- Results of simulation are in a path similar to:
 
   <path where gatling is installed>/gatling-charts-highcharts-2.0.3/results/dictionaryservicesimulation-xxxxxxxxx/index.html
+
+//DOING:
+creating a more realistic test
