@@ -15,15 +15,15 @@ Instructions:
 
 4.- Clone repository and copy "dictionaryService" directory from the cloned repo inside of:
   
-  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/user-files/
+  path_where_gatling_is_installed/gatling-charts-highcharts-2.0.3/user-files/
 
 5.- copy "users.csv" file from cloned repo inside of:
 
-  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/user-files/data/
+  path_where_gatling_is_installed/gatling-charts-highcharts-2.0.3/user-files/data/
 
 6.- From:
 
-  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/bin/
+  path_where_gatling_is_installed/gatling-charts-highcharts-2.0.3/bin/
 
   run ./gatling.sh (linux) or batling.bat (windows)
 
@@ -31,7 +31,8 @@ Instructions:
   
 7.- Results of simulation are in a path similar to:
 
-  <path where gatling is installed>/gatling-charts-highcharts-2.0.3/results/dictionaryservicesimulation-xxxxxxxxx/index.html
+ path_where_gatling_is_installed/gatling-charts-highcharts-2.0.3/results/dictionaryservicesimulation-xxxxxxxxx/index.html
 
 //DOING:
+
 creating a more realistic test
