@@ -1,4 +1,4 @@
-package computerdatabase.advanced
+package com.gft.dicitonaryservice
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
@@ -9,9 +9,16 @@ class DictionaryServiceSimulation extends Simulation {
 
   object DictionaryService {
 
-    val getDictionary = exec(http("dictionary for user1")
-      .get("/user1"))
+  val feeder = csv ("users.csv").random
+
+  
+   val getDictionary = repeat (10){
+      feed(feeder) 
+      .exec(http("dictionary for userId: ${userId}")
+      .get("/${userId}")
+      .check(status.is(200)))
       .pause(1)
+    }
   }
  
   val httpConf = http
